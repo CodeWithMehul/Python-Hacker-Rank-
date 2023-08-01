@@ -22,7 +22,7 @@ def fibonacci(n):
     for i in range(2,n):
         series.append(series[i-1]+series[i-2])
         
-    return series
+    return series([0:n])
   
 
 if __name__ == '__main__':
